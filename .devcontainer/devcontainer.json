@@ -1,12 +1,11 @@
 {
-    "name": "Ubuntu 22.04 with Docker CLI",
-    "build": {
-      "dockerfile": "Dockerfile"
-    },
-    "settings": {
-      "terminal.integrated.shell.linux": "/bin/bash"
-    },
-    "postCreateCommand": "docker --version",
-    "remoteUser": "root"
-  }
-  
+  "name": "Ubuntu 22.04 with Docker CLI",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "docker --version",
+  "remoteUser": "root"
+}
